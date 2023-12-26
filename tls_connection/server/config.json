@@ -1,0 +1,4 @@
+{
+    "serverCertFile": "server.crt",
+    "serverKeyFile": "server.key"
+}
