@@ -10,7 +10,7 @@ import (
 func main() {
 	log.SetFlags(log.Lshortfile)
 
-	local_config, err := config.loadConfig("config.json")
+	local_config, err := loadConfig("config.json")
 	if err != nil {
 		log.Fatal(err)
 	}
