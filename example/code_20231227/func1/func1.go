@@ -1,8 +1,8 @@
-package main
+package func1
 
 import "fmt"
 
-func hello(name string) string {
+func Hello(name string) string {
 	msg := fmt.Sprintf("Hi, %v. Welcome!", name)
 	return msg
 }

@@ -1,10 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"example/code_20231227/func1"
+	"fmt"
+)
 
 func main() {
 	// function
-	msg := hello("test")
+	msg := func1.Hello("test")
 	println(msg)
 
 	// map
